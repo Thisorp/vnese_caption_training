@@ -67,13 +67,13 @@ For better understanding the code and the information inside, since this reposit
 
 
 # How to run the code
-[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![Windows](https://svgshare.com/i/ZhY.svg)](https://svgshare.com/i/ZhY.svg)
+
 
 The code can be run in every OS, feel free to use whatever you want. Of course a high-end machine is mandatory, since the huge amout of needed data can lead to out-of-memory error in low-end machine. 
 **Remember that the dataset need to be downloaded before launching and it must respect the dataset format**
 How to prepare the dataset for C[aA]RNet training?
 
- 1. [Download](https://www.kaggle.com/hsankesara/flickr-image-dataset) the dataset.
+ 1. [Download](https://drive.google.com/file/d/1h1U_NyWF8n8KRJFM7jePAGnwyAI8000r/view?usp=drive_link) the dataset.
  2. Extract it in the root of the repository.
  3. Rename the folder into *dataset*
  4. Rename the images folder into *images*
@@ -99,7 +99,10 @@ Naturally inside the root of the package is present a requirements.txt file, you
 ```bash
 pip install -r requirements.txt
 ```
-
+Update newest package you can install:
+```bash
+pip install -r requirements_faster.txt
+```
 If pip doesn't find this version of torch, you can execute in the shell with venv activated:
 ```bash
 pip install torch==1.3.0+cu100 torchvision==0.4.1+cu100 -f https://download.pytorch.org/whl/torch_stable.html
@@ -459,5 +462,5 @@ Here you can see the training that i launched as experiments, the pretrained net
 
 ## Authors
 
-- [@christiandimaio](https://www.github.com/christiandimaio)
+- [@Thisorp](https://www.github.com/thisorp)
 
