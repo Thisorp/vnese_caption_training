@@ -82,7 +82,7 @@ def parse_command_line_arguments():
 
 
 if __name__ == "__main__":
-    print("Coded with love by christiandimaio aka gnekt :* \n ")
+    print("Wizarding by Thisorp:* \n ")
     args = parse_command_line_arguments()
     
     for k, v in args.__dict__.items():
