@@ -188,7 +188,7 @@ python main.py RNetvHCAttention train 1024 1024 --dataset_folder ./dataset --dev
 
 `CaRNetvI`
 ```bash
-python main RNetvI eval 5078 1024 --image_path ./33465647.jpg
+python main.py RNetvI eval 5078 1024 --image_path ./33465647.jpg
 ```
 `CaRNetvH`
 ```bash
